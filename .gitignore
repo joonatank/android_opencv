@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Don't include Android Studio configs
+.idea
+# Don't include external libs
+OpenCV
+# No temp files
+*.swp
+*~
+
+# No Library files (for example opencv lib is in jniLibs)
+*.so
+
+# Others
+gradle/
+gradlew
+gradlew.bat
+
